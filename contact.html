@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="description" content="Welcome To The Imperial Hotel, The Most Extraordinary Hotel At C.G. Road, Ahmedabad, Gujarat">
+		<meta name="keywords" content="The Best Hotel in Ahmedabad, 5 Star Hotel in Ahmedabad, Hotel at Affordable Price, Hotel with Great Service">
+		<script src="https://kit.fontawesome.com/9a4e1c0fcb.js" crossorigin="anonymous"></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Advent+Pro&display=swap" rel="stylesheet">
+		<link rel="icon" href="icon\icon.jpg">
+		<link rel="stylesheet" href="css\style.css">
+		<link rel="stylesheet" media="screen and (max-width: 800px)" href="css\mobile.css">
+		<link rel="stylesheet" href="css\landscap.css" media="screen and (max-height: 450px)">
+		<title>Imperial Hotel | Contact</title>
+	</head>
+	<body>
+		<header>
+			<nav id="navbar" class="dark-background">
+				<div class="navbar-container">
+					<h2 class="logo large-header"><a href="index.html"><span class="primary-text">IMPERIAL</span> HOTEL</a></h2>
+					<ul class="very-large-text">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a class="current" href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<section id="contact-form">
+			<div class="form-container light-background">
+				<h1 class="very-large-header"><span class="primary-text">Contact</span> Us</h1>
+				<p class="very-large-text">Please Fill Out The Form To Contact Us :</p>
+				<form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+					<div>
+						<label class="very-large-text" for="name">Name</label>
+						<input  class="very-large-text" type="text" name="name" id="name">
+					</div>
+					<div>
+						<label class="very-large-text" for="phone-no">Phone No</label>
+						<input class="very-large-text" type="tel" name="phone_no" id="phone-no">
+					</div>
+					<div>
+						<label class="very-large-text" for="email">Email</label>
+						<input class="very-large-text" type="email" name="email" id="email">
+					</div>
+					<div>
+						<label class="very-large-text" for="message">Message</label>
+						<textarea class="very-large-text" name="message" id="message"></textarea>
+					</div>
+					
+					<center><div id="captcha" data-netlify-recaptcha="true"></div></center>
+					
+					<div>
+						<input class="button dark-button" type="submit" name="submit" value="Submit">
+					</div>
+				</form>
+			</div>
+		</section>
+		<section id="contact-us">
+			<div class="contact-us-container">
+				<div class="box primary-background">
+					<a href="https://goo.gl/maps/wLxiZb3Ps9mdaAGd8"><i class="fas fa-hotel fa-6x"></i></a>
+					<h2 class="large-header">Location</h2>
+					<p class="large-text">C G Road, Ahmedabad</p>
+				</div>
+				<div class="box primary-background">
+					<a href="tel:+919999999999"><i class="fas fa-phone fa-6x"></i></a>
+					<h2 class="large-header">Phone No</h2>
+					<p class="large-text">+91 9999999999</p>
+				</div>
+				<div class="box primary-background">
+					<a href="mailto:impireal@gmail.com"><i class="fas fa-envelope fa-6x"></i></a>
+					<h2 class="large-header">Email</h2>
+					<p class="large-text">impireal@gmail.in</p>
+				</div>
+			</div>
+		</section>
+		<div class="clear"></div>
+		<footer id="footer">
+			<div class="footer-container dark-background">
+				<p class="very-large-text">Hotel Imperial &copy; 2020</p>
+				<img src="logo\logo.png">
+			</div>
+		</footer>
+	</body>
+</html>

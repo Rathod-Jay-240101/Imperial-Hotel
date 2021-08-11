@@ -1,0 +1,209 @@
+/*Main Styling*/
+
+html {
+	font-size: 5px;
+}
+
+p {
+	line-height: 1.8em;
+}
+
+/*Utility Class*/
+
+.very-very-large-header {
+	font-size: 9rem;
+}
+
+.very-large-header {
+	font-size: 5.5rem;
+}
+
+.large-header {
+	font-size: 5rem;
+}
+
+.very-large-text{
+	font-size: 3rem;
+}
+
+.large-text{
+	font-size: 1.8rem;
+}
+
+.button{
+	display: inline-block;
+	padding: 2rem;
+	font-size: 3rem;
+	border: none;
+}
+
+/*Navbar*/
+
+#navbar {
+	position: relative;
+	box-shadow: none;
+}
+
+#navbar .navbar-container {
+	height: 37.5rem;
+	text-align: center;
+}
+
+#navbar .navbar-container h2 {
+ 	float: none; 
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #f4f4f4;
+}
+
+#navbar .navbar-container ul {
+	list-style: none;
+	float: none;
+}
+
+#navbar .navbar-container ul li {
+	float: none;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #f4f4f4;
+}
+
+#navbar .navbar-container ul li a {
+	padding: 2.5rem 3rem;
+}
+
+#navbar .navbar-container ul li a.current {
+	display: block;
+ 	position: sticky;
+ 	top: 10rem;
+}
+
+/*Showcae*/
+
+#showcase .showcase-container {
+	padding: 5rem 3rem;
+}
+
+#showcase .showcase-container p {
+	padding: 4rem 1rem 5rem 1rem;
+	justify-content: center;
+}
+
+/*Hotel-Info*/
+
+#hotel-info .hotel-info-container {
+	height: 80rem;
+}
+
+#hotel-info .hotel-info-container .hotel-info-text {
+	border-width: 2rem 0rem;
+	padding: 4rem 1rem;
+}
+
+#hotel-info .hotel-info-container .hotel-info-text p {
+	padding: 3rem 1rem;
+	justify-content: center;
+}
+
+/*Features*/
+
+#features .feature-container {
+	height: 45rem;
+}
+
+#features .feature-container .box {
+	float: left;
+	width: 33.33%;
+	height: 100%;
+	padding: 6rem 3rem 5rem 3rem;
+	border-style: solid;
+}
+
+#features .feature-container .box h2 {
+	padding: 1rem 0rem;
+}
+
+#features .feature-container .box p {
+	padding-top: 2rem;
+}
+
+/*About  Hotel*/
+
+#about-hotel .about-hotel-container {
+	padding-top: 0rem;
+}
+
+#about-hotel .about-hotel-container .about-left {
+	text-align: center;
+	width: 50%;
+	height: 100%;
+	padding: 2rem 2rem 2rem 4rem;
+	border-width: 0rem;
+	float: left;
+}
+
+#about-hotel .about-hotel-container .about-left h1 {
+	padding: 2rem 1rem;
+}
+
+#about-hotel .about-hotel-container .about-left p {
+	padding: 1rem 0rem;
+	text-align: justify;
+}
+
+#about-hotel .about-hotel-container .about-right {
+	width: 50%;
+	height: 100%;
+	float: right;
+	padding: 4rem 4rem 4rem 2rem;
+}
+
+#about-hotel .about-hotel-container .about-right img {
+	display: block;
+	margin: 0px auto;
+	width: 100%;
+	height: 88vh;
+	border-radius: 50%;
+}
+
+/*Testimonials*/
+
+#testimonials .testimonials-container .testimonials-details {
+	width: 90%;
+}
+
+#testimonials .testimonials-container .testimonials-details img {
+	width: 35%;
+}
+
+#testimonials .testimonials-container .testimonials-details .feedback {
+	width: 65%;
+}
+
+/*Contaclt Form*/
+
+#contact-form .form-container {
+	padding-top: 2rem;
+}
+
+/*Contact Us*/
+
+#contact-us .contact-us-container {
+	height: 30rem;
+	width: 100%;
+}
+
+#contact-us .contact-us-container .box {
+	float: left;
+	width: 33.33%;
+	height: 100%;
+	padding: 5rem 2rem;
+}
+
+#contact-us .contact-us-container .box h2 {
+	padding-bottom: 3rem;
+}
+
+#contact-us .contact-us-container .box p {
+	font-size: 2.5rem;
+}
